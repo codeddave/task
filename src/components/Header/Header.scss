@@ -1,0 +1,36 @@
+.header {
+    padding-left: 4.644rem;
+    
+    .nav-items-left {
+        padding-top: 2.313rem;
+        ul {
+            display: flex;
+            li {
+                font-size: 1.25rem; 
+                padding-left: 3.5rem;
+            }
+        }
+    }
+
+    .nav-items-right {
+            ul {
+            padding-top: 2.313rem;
+
+                display: flex;
+                li {
+                    font-size: 1.25rem; 
+                }
+            }
+            
+
+    }
+    .try-for-free {
+        background-color: #462686;
+        padding: .91rem 2.03rem .91rem 2rem;
+        color: white;
+        font-size: 1rem;
+        border-radius: 6.25rem;
+        height: 3rem;
+        margin-top: 1.5rem;
+    }
+}

@@ -1,27 +1,30 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import ContactSales from './components/ContactSales/ContactSales';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   return (
-    <div className="text-center">
-      <header className="flex flex-col items-center justify-center min-h-screen bg-secondary">
-        <img
-          src={logo}
-          style={{ height: '40vmin' }}
-          className="animate-spin-slow"
-          alt="logo"
-        />
-        <p className="text-white">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="text-primary"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Router>
+        <>
+        <Header/>
+        <Switch> 
+            <Route exact path ='/' component={Home}/>
+            <Route exact path ='/contact-sales' component={ContactSales}/>
+            <Route exact path ='/signin' component={SignIn}/>
+
+            
+        </Switch>
+       <Footer/> 
+
+        </>  
+      </Router>
+       
+
+
     </div>
   );
 }

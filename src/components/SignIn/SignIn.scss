@@ -1,0 +1,22 @@
+input {
+    width: 35rem;
+    border-radius: 5px;
+}
+.login-btn {
+    background-color: #462686;
+    border-radius: 3.125rem;
+    color: white;
+}
+.forgot {
+    color: #462686;
+}
+.alt-signin {
+    padding-top: 5.625rem;
+}
+
+@media(max-width: 680px) {
+    input {
+        width: 18.75rem;
+    }
+
+}
