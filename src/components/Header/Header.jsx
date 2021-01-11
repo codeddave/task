@@ -11,10 +11,10 @@ function Header() {
                 <img src={Logo} alt="logo" onClick={() => history.push('/')}/>
                 <div className="nav-items-left text-gray-600">
                     <ul className="">
-                        <li><Link>Product</Link></li>
-                        <li><Link>Pricing</Link></li>
-                        <li><Link>Enterprise</Link></li>
-                        <li><Link>Support</Link></li>
+                        <li><Link to="/">Product</Link></li>
+                        <li><Link to="/">Pricing</Link></li>
+                        <li><Link to="/">Enterprise</Link></li>
+                        <li><Link to="/">Support</Link></li>
 
                     </ul>
                 </div>
@@ -24,7 +24,7 @@ function Header() {
                 <div className="nav-items-right pl-64 text-gray-600">             
                      <ul className="">
                         <li><Link to="/contact-sales">Contact Sales</Link></li>
-                        <li className="pl-8 pr-10"><Link>Login</Link></li>
+                        <li className="pl-8 pr-10"><Link to="/signin">Login</Link></li>
                     </ul>
                      
                 </div>

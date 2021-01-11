@@ -9,7 +9,7 @@ function ContactSales() {
                     <form className="px-32 py-20">
                         <div className="flex justify-between">
                             <div>
-                                <label className>Last Name</label>
+                                <label >Last Name</label>
                                 <input type="text" className="border border-gray-600 mt-2 w-44 h-10 "/>
                             </div>
                             <div className="ml-10">
