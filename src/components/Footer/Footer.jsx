@@ -4,7 +4,7 @@ import Logo from '../../assets/images/logo.svg'
 
 function Footer() {
     return (
-        <div className="md:px-16">
+        <div className="md:px-16 footer">
             <div>
                 <div className="flex justify-between">
                     <img src={Logo} alt=""/>

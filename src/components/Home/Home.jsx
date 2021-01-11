@@ -19,8 +19,8 @@ function Home() {
     return (
         <div>
             <div className="s">
-            <div className="flex pl-6 md:pl-20 lg:pl-44 lg:pr-48 pt-24 md:flex-row flex-col ">
-                <div className="pt-20">
+            <div className="flex pl-6 md:pl-20 lg:pl-44 lg:pr-48 pt-8 md:pt-24 md:flex-row flex-col ">
+                <div className=" pt-2 md:pt-20">
                     <p className="text-5xl font-medium">Collaborate with your team and get more done</p>
 
                     <p className="pt-10">Communicate effectively with Oneburner for easy collaboration, team work and remote work.</p>
@@ -60,35 +60,35 @@ function Home() {
                 </div>
             </div>
 
-            <div className="flex lg:ml-32 lg:pt-48 lg:pb-52 md:flex-row flex-col">
+            <div className="flex ml-8 lg:ml-32 pt-16 lg:pt-48 lg:pb-52 md:flex-row flex-col ">
 
-                <div>
-                    <p className="text-4xl pt-48">Manage team activities all in one place</p>
+                <div className="order-2 md:order-1">
+                    <p className="text-4xl md:pt-48 pt-4 ">Manage team activities all in one place</p>
                     <p className="pt-4">Keep your team organized and informed with activities that are up to date.</p>
                 </div>
-                <div className="pr-32 pl-40">
-                    <img src={Video} alt=""/>
+                <div className="md:pr-32 md:pl-40 order-1 md:order-2 pt:12 md:pt-0">
+                    <img src={Video} alt="" className/>
                 </div>
             </div>
           </div>
 
-          <div className="flex lg:ml-32 md:flex-row flex-col">
-              <div className="pr-32 ">
+          <div className="flex ml-8 lg:ml-32 md:flex-row flex-col pt-12 md:pt-0">
+              <div className="md:pr-32 ">
                 <img src={UpToSpeed} alt=""/>
               </div>
               <div className=" pr-20">
-                <p className="text-4xl pt-48">Bring your team up to speed</p>
+                <p className="text-4xl pt-12 md:pt-48">Bring your team up to speed</p>
                 <p className="pt-4">Collaborate on project from start to finish, see information at a glance, add comment, attachment and more with Oneburner.</p>
               </div>
           </div>
           
-          <div className="flex lg:ml-32 lg:pt-48 lg:pb-52 md:flex-row flex-col">
+          <div className="flex ml-8 lg:ml-32 pt-16 lg:pt-48 pb-20 lg:pb-52 md:flex-row flex-col">
 
-            <div>
-                <p className="text-4xl pt-48">Manage team activities all in one place</p>
+            <div className="order-2 md:order-1">
+                <p className="text-4xl pt-12 md:pt-48 ">Automated task timeline</p>
                 <p className="pt-4">View dates, projects, calendar, sprint and more with reliability.</p>
             </div>
-            <div className="pr-32 pl-40">
+            <div className="md:pr-32 md:pl-40 order-1 md:order-2">
                 <img src={Automated} alt=""/>
             </div>
         </div>
@@ -98,29 +98,29 @@ function Home() {
             <img src={Icons} alt=""/>
 
         </div>
-        <div className="flex lg:ml-32 md:flex-row flex-col lg:pt-48 ">
-              <div className="pr-32 ">
+        <div className="flex ml-8 lg:ml-32 md:flex-row flex-col pt-16 lg:pt-48 ">
+              <div className="md:pr-32 ">
                 <img src={Timeless} alt=""/>
               </div>
               <div className=" pr-20">
-                <p className="text-4xl pt-48">Timeless report generator</p>
+                <p className="text-4xl pt-12 md:pt-48">Timeless report generator</p>
                 <p className="pt-4">You can generate quick report of activities of all that has to do with the daily running of your business and teams.</p>
               </div>
         </div>
           
-        <div className="flex lg:ml-32 lg:pt-48  md:flex-row flex-col">
+        <div className="flex ml-8 lg:ml-32 lg:pt-48  md:flex-row flex-col">
 
-            <div>
-                <p className="text-4xl pt-48">Efficient lead management</p>
+            <div className="order-2 md:order-1">
+                <p className="text-4xl pt-12 md:pt-48">Efficient lead management</p>
                 <p className="pt-4">You can generate quick report of activities of all that has to do with the daily running of your business and teams.</p>
             </div>
-            <div className="pr-32 pl-32">
+            <div className="md:pr-32 md:pl-32 order-1 md:order-2">
                 <img src={Efficient} alt=""/>
             </div>
         </div>
     
         <div className="flex lg:ml-60 md:flex-row flex-col lg:pt-32 ">
-              <div className="pr-32  max-w-3xl">
+              <div className="md:pr-32  max-w-3xl">
                 <img src={CustomerSupport} alt=""/>
               </div>
               <div className=" pr-20 ">
@@ -129,7 +129,7 @@ function Home() {
               </div>
         </div>
 
-        <div className="choose text-white text-center py-24 lg:mt-40">
+        <div className="choose text-white text-center py-24 lg:mt-40 w">
             <p className="text-3xl font-medium">Choose a better way to work</p>
             <p className="pt-4"> No credit card details | No additional installation | No time wasting</p>
             <button className="mt-14 purple-btn">
