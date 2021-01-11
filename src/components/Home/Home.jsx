@@ -26,7 +26,7 @@ function Home() {
                     <p className="pt-10">Communicate effectively with Oneburner for easy collaboration, team work and remote work.</p>
 
                     <button className="start-trial mt-10">
-                        Start Free Trial >
+                        Start Free Trial 
                     </button>
                 </div>
 
@@ -47,7 +47,7 @@ function Home() {
             </div>
             <div className=" border-2 flex mx-24 mt-52">
                 <div className=" w-56 crm py-4">
-                     <p className="pl-12 text-white">CRM & Sales</p>
+                     <p className="pl-12 text-white">CRM  Sales</p>
                 </div>
                 <div>
                     <ul className="flex py-4 pl-0">
